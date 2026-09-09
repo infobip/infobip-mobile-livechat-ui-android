@@ -1,6 +1,9 @@
-# infobip-mobile-livechat-ui-android
+# Infobip Mobile Livechat UI
 
-Jetpack Compose UI for Infobip Mobile Livechat on Android.
+Stateless Jetpack Compose building blocks for creating an
+[Infobip Live Chat](https://www.infobip.com/docs/live-chat) experience in your app. The library includes a
+default theming and branding system, but it does not provide a complete full-screen Live Chat UI
+implementation.
 
 ## Requirements
 
@@ -11,14 +14,22 @@ Jetpack Compose UI for Infobip Mobile Livechat on Android.
 | Kotlin             | 2.3.21  |
 | Java (toolchain)   | 17      |
 
-## Integration
+## Installation
 
-Add the dependency to your `build.gradle(.kts)`:
+The library is available on Maven Central. Add the dependency to your `build.gradle.kts`:
 
 ```kotlin
-implementation("com.infobip:infobip-mobile-livechat-ui-android:1.0.0")
+dependencies {
+    implementation("com.infobip:infobip-mobile-livechat-ui-android:1.0.0-rc2")
+}
 ```
+
+## Documentation
+
+See the [project wiki](https://github.com/infobip/infobip-mobile-livechat-ui-android/wiki) for library
+documentation and the [GitHub Releases page](https://github.com/infobip/infobip-mobile-livechat-ui-android/releases)
+for release notes.
 
 ## License
 
-Distributed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
+Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
