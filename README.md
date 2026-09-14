@@ -20,7 +20,7 @@ The library is available on Maven Central. Add the dependency to your `build.gra
 
 ```kotlin
 dependencies {
-    implementation("com.infobip:infobip-mobile-livechat-ui-android:1.0.0-rc2")
+    implementation("com.infobip:infobip-mobile-livechat-ui-android:1.0.0")
 }
 ```
 
