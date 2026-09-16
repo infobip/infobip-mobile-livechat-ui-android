@@ -9,7 +9,7 @@ implementation.
 
 | Requirement        | Version |
 |--------------------|---------|
-| Android minSdk     | 23      |
+| Android minSdk     | 21      |
 | Android compileSdk | 37      |
 | Kotlin             | 2.3.21  |
 | Java (toolchain)   | 17      |
@@ -20,7 +20,7 @@ The library is available on Maven Central. Add the dependency to your `build.gra
 
 ```kotlin
 dependencies {
-    implementation("com.infobip:infobip-mobile-livechat-ui-android:1.0.0")
+    implementation("com.infobip:infobip-mobile-livechat-ui-android:1.1.0")
 }
 ```
 
